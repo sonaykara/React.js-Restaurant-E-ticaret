@@ -1,0 +1,78 @@
+
+
+@import url(./reset.css);
+
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: Open Sans, arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    object-fit: cover;
+}
+
+button {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: none ;
+    overflow: hidden;
+    
+}
+
+a {
+    color: #333333;
+}
+
+
+.btn {
+    transition: scale  0.5s ease-in-out;
+    -webkit-transition: scale  0.5s ease-in-out;
+    -moz-transition: scale  0.5s ease-in-out;
+    -ms-transition: scale  0.5s ease-in-out;
+    -o-transition: scale  0.5s ease-in-out;
+    display: inline-block;
+    background: green;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    overflow: hidden;
+}
+.btn:hover {
+    scale: 1.1;
+}
+
+.btn.success {
+    background-color: green;
+}
+
+.btn.primary {
+    background-color: blue;
+}
+
+.btn.danger {
+    background-color: red;
+}
+
+.btn.info {
+    background-color: lightblue;
+}
+
+.btn.sm {
+    width: 100px;
+}
+
